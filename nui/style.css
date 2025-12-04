@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+.atkinson-hyperlegible-next {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible Next", serif;
+  color: #fff;
+  overflow: hidden;
+  background: transparent;
+}
+
+.reminder {
+  position: absolute;
+  left: 1vh;
+  top: 10vh;
+}
+
+.reminder-title {
+  width: 350px;
+  height: 30px;
+  background-color: rgba(211, 208, 208, 0.74);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 1.4vh;
+  padding-right: 1.4vh;
+}
+
+.reminder-title span {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(70, 70, 70);
+}
+
+.reminder-message {
+  width: 350px;
+  height: auto;
+  background: rgba(20, 20, 24, 0.158);
+  background: radial-gradient(circle, rgb(19 19 20 / 64%) 35%, rgb(31 31 31 / 72%) 100%);
+  padding-left: 1.4vh;
+  padding-right: 1.4vh;
+  padding-bottom: 1vh;
+  padding-top: .5vh;
+}
+
+.reminder-message span {
+  font-size: 14px;
+  color: rgba(238, 238, 238, 0.644);
+}
+
+.bottom {
+  width: 350px;
+  height: 35px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 1vh;
+}
+
+.close-key {
+  width: 27px;
+  height: 27px;
+  background-color: rgba(211, 208, 208, 0.74);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.close-key span {
+  font-size: 11px;
+  font-weight: 700;
+  color: rgb(41, 41, 41);
+}
+
+.close-message {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(238, 238, 238, 0.644);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+  margin-left: 1vh;
+}
