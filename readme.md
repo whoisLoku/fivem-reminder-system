@@ -2,7 +2,10 @@ A fully customizable reminder system for FiveM that displays periodic break, hea
 
 ---
 
-## 📂 Installation
+![FiveM_GTAProcess_BgXfz62zPa](https://github.com/user-attachments/assets/442f1839-6a95-4caa-b0b4-172fb70f96a8)
+
+---
+
 
 1. Download the resource.
 2. Place it into your `resources` folder.
@@ -30,6 +33,7 @@ Config.CloseText = "Press to Close Message"
 ---
 
 A simple test command is included:
-
+```lua
 /testreminder
+```
 
