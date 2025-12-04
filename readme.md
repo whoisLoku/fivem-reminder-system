@@ -1,5 +1,4 @@
-A fully customizable reminder system for FiveM that displays periodic break, health, or any custom messages to players.  
-The UI appears on screen at configurable intervals and can be closed with the ESC key.
+A fully customizable reminder system for FiveM that displays periodic break, health, or any custom messages to players. The UI appears on screen at configurable intervals and can be closed with the ESC key.
 
 ---
 
@@ -33,3 +32,4 @@ Config.CloseText = "Press to Close Message"
 A simple test command is included:
 
 /testreminder
+
